@@ -84,7 +84,7 @@ public class UpdateScheduledPackagesResult extends AbstractMwsObject {
     /**
      * Add values for ScheduledPackageList, return this.
      *
-     * @param scheduledPackageList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

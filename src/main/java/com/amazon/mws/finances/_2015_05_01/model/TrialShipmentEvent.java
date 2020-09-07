@@ -261,7 +261,7 @@ public class TrialShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for FeeList, return this.
      *
-     * @param feeList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

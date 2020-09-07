@@ -91,7 +91,7 @@ public class ASINPrepInstructionsList extends AbstractMwsObject {
     /**
      * Add values for ASINPrepInstructions, return this.
      *
-     * @param asinPrepInstructions
+     * @param values
      *             New values to add.
      *
      * @return This instance.

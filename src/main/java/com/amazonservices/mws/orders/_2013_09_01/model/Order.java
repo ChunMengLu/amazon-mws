@@ -744,7 +744,7 @@ public class Order extends AbstractMwsObject {
     /**
      * Add values for PaymentExecutionDetail, return this.
      *
-     * @param paymentExecutionDetail
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -839,7 +839,7 @@ public class Order extends AbstractMwsObject {
     /**
      * Add values for PaymentMethodDetails, return this.
      *
-     * @param paymentMethodDetails
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -1940,7 +1940,7 @@ public class Order extends AbstractMwsObject {
     /**
      * Add values for TaxRegistrationDetails, return this.
      *
-     * @param taxRegistrationDetails
+     * @param values
      *             New values to add.
      *
      * @return This instance.

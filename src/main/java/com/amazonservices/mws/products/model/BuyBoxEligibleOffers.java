@@ -91,7 +91,7 @@ public class BuyBoxEligibleOffers extends AbstractMwsObject {
     /**
      * Add values for OfferCount, return this.
      *
-     * @param offerCount
+     * @param values
      *             New values to add.
      *
      * @return This instance.

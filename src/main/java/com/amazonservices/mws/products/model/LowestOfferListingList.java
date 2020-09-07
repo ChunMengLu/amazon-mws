@@ -91,7 +91,7 @@ public class LowestOfferListingList extends AbstractMwsObject {
     /**
      * Add values for LowestOfferListing, return this.
      *
-     * @param lowestOfferListing
+     * @param values
      *             New values to add.
      *
      * @return This instance.

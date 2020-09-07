@@ -91,7 +91,7 @@ public class ListMarketplaces extends AbstractMwsObject {
     /**
      * Add values for Marketplace, return this.
      *
-     * @param marketplace
+     * @param values
      *             New values to add.
      *
      * @return This instance.

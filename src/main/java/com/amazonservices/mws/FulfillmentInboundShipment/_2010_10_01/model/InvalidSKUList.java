@@ -91,7 +91,7 @@ public class InvalidSKUList extends AbstractMwsObject {
     /**
      * Add values for InvalidSKU, return this.
      *
-     * @param invalidSKU
+     * @param values
      *             New values to add.
      *
      * @return This instance.

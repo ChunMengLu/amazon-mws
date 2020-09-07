@@ -91,7 +91,7 @@ public class MessageList extends AbstractMwsObject {
     /**
      * Add values for Message, return this.
      *
-     * @param message
+     * @param values
      *             New values to add.
      *
      * @return This instance.

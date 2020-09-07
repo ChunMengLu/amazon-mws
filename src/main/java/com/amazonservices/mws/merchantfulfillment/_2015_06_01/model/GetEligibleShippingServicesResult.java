@@ -93,7 +93,7 @@ public class GetEligibleShippingServicesResult extends AbstractMwsObject {
     /**
      * Add values for ShippingServiceList, return this.
      *
-     * @param shippingServiceList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -147,7 +147,7 @@ public class GetEligibleShippingServicesResult extends AbstractMwsObject {
     /**
      * Add values for RejectedShippingServiceList, return this.
      *
-     * @param rejectedShippingServiceList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -201,7 +201,7 @@ public class GetEligibleShippingServicesResult extends AbstractMwsObject {
     /**
      * Add values for TemporarilyUnavailableCarrierList, return this.
      *
-     * @param temporarilyUnavailableCarrierList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -255,7 +255,7 @@ public class GetEligibleShippingServicesResult extends AbstractMwsObject {
     /**
      * Add values for TermsAndConditionsNotAcceptedCarrierList, return this.
      *
-     * @param termsAndConditionsNotAcceptedCarrierList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

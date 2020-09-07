@@ -105,7 +105,7 @@ public class ListRecommendationsByNextTokenResult extends AbstractMwsObject {
     /**
      * Add values for InventoryRecommendations, return this.
      *
-     * @param inventoryRecommendations
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -159,7 +159,7 @@ public class ListRecommendationsByNextTokenResult extends AbstractMwsObject {
     /**
      * Add values for SelectionRecommendations, return this.
      *
-     * @param selectionRecommendations
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -213,7 +213,7 @@ public class ListRecommendationsByNextTokenResult extends AbstractMwsObject {
     /**
      * Add values for PricingRecommendations, return this.
      *
-     * @param pricingRecommendations
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -267,7 +267,7 @@ public class ListRecommendationsByNextTokenResult extends AbstractMwsObject {
     /**
      * Add values for FulfillmentRecommendations, return this.
      *
-     * @param fulfillmentRecommendations
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -321,7 +321,7 @@ public class ListRecommendationsByNextTokenResult extends AbstractMwsObject {
     /**
      * Add values for ListingQualityRecommendations, return this.
      *
-     * @param listingQualityRecommendations
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -375,7 +375,7 @@ public class ListRecommendationsByNextTokenResult extends AbstractMwsObject {
     /**
      * Add values for GlobalSellingRecommendations, return this.
      *
-     * @param globalSellingRecommendations
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -429,7 +429,7 @@ public class ListRecommendationsByNextTokenResult extends AbstractMwsObject {
     /**
      * Add values for AdvertisingRecommendations, return this.
      *
-     * @param advertisingRecommendations
+     * @param values
      *             New values to add.
      *
      * @return This instance.

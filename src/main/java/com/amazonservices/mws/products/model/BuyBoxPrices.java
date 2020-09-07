@@ -91,7 +91,7 @@ public class BuyBoxPrices extends AbstractMwsObject {
     /**
      * Add values for BuyBoxPrice, return this.
      *
-     * @param buyBoxPrice
+     * @param values
      *             New values to add.
      *
      * @return This instance.

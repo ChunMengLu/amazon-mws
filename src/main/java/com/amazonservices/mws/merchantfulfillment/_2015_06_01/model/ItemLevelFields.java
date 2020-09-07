@@ -128,7 +128,7 @@ public class ItemLevelFields extends AbstractMwsObject {
     /**
      * Add values for AdditionalInputs, return this.
      *
-     * @param additionalInputs
+     * @param values
      *             New values to add.
      *
      * @return This instance.

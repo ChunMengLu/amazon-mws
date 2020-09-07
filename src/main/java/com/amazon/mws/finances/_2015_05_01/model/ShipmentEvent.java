@@ -244,7 +244,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for OrderChargeList, return this.
      *
-     * @param orderChargeList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -298,7 +298,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for OrderChargeAdjustmentList, return this.
      *
-     * @param orderChargeAdjustmentList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -352,7 +352,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for ShipmentFeeList, return this.
      *
-     * @param shipmentFeeList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -406,7 +406,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for ShipmentFeeAdjustmentList, return this.
      *
-     * @param shipmentFeeAdjustmentList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -460,7 +460,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for OrderFeeList, return this.
      *
-     * @param orderFeeList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -514,7 +514,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for OrderFeeAdjustmentList, return this.
      *
-     * @param orderFeeAdjustmentList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -568,7 +568,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for DirectPaymentList, return this.
      *
-     * @param directPaymentList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -663,7 +663,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for ShipmentItemList, return this.
      *
-     * @param shipmentItemList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -717,7 +717,7 @@ public class ShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for ShipmentItemAdjustmentList, return this.
      *
-     * @param shipmentItemAdjustmentList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

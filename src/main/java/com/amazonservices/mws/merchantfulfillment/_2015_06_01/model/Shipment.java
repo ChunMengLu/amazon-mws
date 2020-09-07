@@ -250,7 +250,7 @@ public class Shipment extends AbstractMwsObject {
     /**
      * Add values for ItemList, return this.
      *
-     * @param itemList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

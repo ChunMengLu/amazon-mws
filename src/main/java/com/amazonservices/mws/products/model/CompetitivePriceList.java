@@ -91,7 +91,7 @@ public class CompetitivePriceList extends AbstractMwsObject {
     /**
      * Add values for CompetitivePrice, return this.
      *
-     * @param competitivePrice
+     * @param values
      *             New values to add.
      *
      * @return This instance.

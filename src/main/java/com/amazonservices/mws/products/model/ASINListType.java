@@ -91,7 +91,7 @@ public class ASINListType extends AbstractMwsObject {
     /**
      * Add values for ASIN, return this.
      *
-     * @param asin
+     * @param values
      *             New values to add.
      *
      * @return This instance.

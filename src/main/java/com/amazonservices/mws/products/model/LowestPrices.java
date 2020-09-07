@@ -91,7 +91,7 @@ public class LowestPrices extends AbstractMwsObject {
     /**
      * Add values for LowestPrice, return this.
      *
-     * @param lowestPrice
+     * @param values
      *             New values to add.
      *
      * @return This instance.

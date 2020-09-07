@@ -91,7 +91,7 @@ public class SalesRankList extends AbstractMwsObject {
     /**
      * Add values for SalesRank, return this.
      *
-     * @param salesRank
+     * @param values
      *             New values to add.
      *
      * @return This instance.

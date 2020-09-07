@@ -128,7 +128,7 @@ public class ListPickupSlotsResult extends AbstractMwsObject {
     /**
      * Add values for PickupSlotList, return this.
      *
-     * @param pickupSlotList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

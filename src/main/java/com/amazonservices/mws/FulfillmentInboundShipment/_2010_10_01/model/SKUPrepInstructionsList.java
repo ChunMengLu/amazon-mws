@@ -91,7 +91,7 @@ public class SKUPrepInstructionsList extends AbstractMwsObject {
     /**
      * Add values for SKUPrepInstructions, return this.
      *
-     * @param skuPrepInstructions
+     * @param values
      *             New values to add.
      *
      * @return This instance.

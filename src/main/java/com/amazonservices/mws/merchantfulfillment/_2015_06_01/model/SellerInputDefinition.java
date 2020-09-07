@@ -184,7 +184,7 @@ public class SellerInputDefinition extends AbstractMwsObject {
     /**
      * Add values for Constraints, return this.
      *
-     * @param constraints
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -361,7 +361,7 @@ public class SellerInputDefinition extends AbstractMwsObject {
     /**
      * Add values for RestrictedSetValues, return this.
      *
-     * @param restrictedSetValues
+     * @param values
      *             New values to add.
      *
      * @return This instance.

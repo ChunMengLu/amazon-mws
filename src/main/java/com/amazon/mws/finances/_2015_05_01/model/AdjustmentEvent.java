@@ -217,7 +217,7 @@ public class AdjustmentEvent extends AbstractMwsObject {
     /**
      * Add values for AdjustmentItemList, return this.
      *
-     * @param adjustmentItemList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

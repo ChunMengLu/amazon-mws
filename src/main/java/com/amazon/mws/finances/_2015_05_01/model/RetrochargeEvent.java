@@ -349,7 +349,7 @@ public class RetrochargeEvent extends AbstractMwsObject {
     /**
      * Add values for RetrochargeTaxWithheldList, return this.
      *
-     * @param retrochargeTaxWithheldList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

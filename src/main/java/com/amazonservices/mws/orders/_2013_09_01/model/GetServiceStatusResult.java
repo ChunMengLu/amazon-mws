@@ -217,7 +217,7 @@ public class GetServiceStatusResult extends AbstractMwsObject {
     /**
      * Add values for Messages, return this.
      *
-     * @param messages
+     * @param values
      *             New values to add.
      *
      * @return This instance.

@@ -91,7 +91,7 @@ public class FeesEstimateRequestList extends AbstractMwsObject {
     /**
      * Add values for FeesEstimateRequest, return this.
      *
-     * @param feesEstimateRequest
+     * @param values
      *             New values to add.
      *
      * @return This instance.

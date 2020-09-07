@@ -99,7 +99,7 @@ public class GetCompetitivePricingForSKUResponse extends AbstractMwsObject imple
     /**
      * Add values for GetCompetitivePricingForSKUResult, return this.
      *
-     * @param getCompetitivePricingForSKUResult
+     * @param values
      *             New values to add.
      *
      * @return This instance.

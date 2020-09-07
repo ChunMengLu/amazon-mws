@@ -87,7 +87,7 @@ public class AvailableShippingServiceOptions extends AbstractMwsObject {
     /**
      * Add values for AvailableCarrierWillPickUpOptions, return this.
      *
-     * @param availableCarrierWillPickUpOptions
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -141,7 +141,7 @@ public class AvailableShippingServiceOptions extends AbstractMwsObject {
     /**
      * Add values for AvailableDeliveryExperienceOptions, return this.
      *
-     * @param availableDeliveryExperienceOptions
+     * @param values
      *             New values to add.
      *
      * @return This instance.

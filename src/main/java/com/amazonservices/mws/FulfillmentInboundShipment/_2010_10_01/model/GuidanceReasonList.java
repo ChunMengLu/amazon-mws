@@ -91,7 +91,7 @@ public class GuidanceReasonList extends AbstractMwsObject {
     /**
      * Add values for GuidanceReason, return this.
      *
-     * @param guidanceReason
+     * @param values
      *             New values to add.
      *
      * @return This instance.

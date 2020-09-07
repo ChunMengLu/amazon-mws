@@ -91,7 +91,7 @@ public class FeeDetailList extends AbstractMwsObject {
     /**
      * Add values for FeeDetail, return this.
      *
-     * @param feeDetail
+     * @param values
      *             New values to add.
      *
      * @return This instance.

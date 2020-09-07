@@ -172,7 +172,7 @@ public class BuyerTaxInfo extends AbstractMwsObject {
     /**
      * Add values for TaxClassifications, return this.
      *
-     * @param taxClassifications
+     * @param values
      *             New values to add.
      *
      * @return This instance.

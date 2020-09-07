@@ -91,7 +91,7 @@ public class NumberOfOfferListingsList extends AbstractMwsObject {
     /**
      * Add values for OfferListingCount, return this.
      *
-     * @param offerListingCount
+     * @param values
      *             New values to add.
      *
      * @return This instance.

@@ -91,7 +91,7 @@ public class ProductList extends AbstractMwsObject {
     /**
      * Add values for Product, return this.
      *
-     * @param product
+     * @param values
      *             New values to add.
      *
      * @return This instance.

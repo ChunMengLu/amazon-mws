@@ -99,7 +99,7 @@ public class GetLowestOfferListingsForSKUResponse extends AbstractMwsObject impl
     /**
      * Add values for GetLowestOfferListingsForSKUResult, return this.
      *
-     * @param getLowestOfferListingsForSKUResult
+     * @param values
      *             New values to add.
      *
      * @return This instance.

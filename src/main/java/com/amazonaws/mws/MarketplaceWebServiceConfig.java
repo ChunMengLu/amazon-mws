@@ -1,18 +1,18 @@
-/******************************************************************************* 
+/*******************************************************************************
  *  Copyright 2009 Amazon Services.
- *  Licensed under the Apache License, Version 2.0 (the "License"); 
- *  
- *  You may not use this file except in compliance with the License. 
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *
+ *  You may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at: http://aws.amazon.com/apache2.0
- *  This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR 
- *  CONDITIONS OF ANY KIND, either express or implied. See the License for the 
+ *  This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ *  CONDITIONS OF ANY KIND, either express or implied. See the License for the
  *  specific language governing permissions and limitations under the License.
- * ***************************************************************************** 
+ * *****************************************************************************
  *
  *  Marketplace Web Service Java Library
  *  API Version: 2009-01-01
- *  Generated: Tue Feb 03 15:59:58 PST 2009 
- * 
+ *  Generated: Tue Feb 03 15:59:58 PST 2009
+ *
  */
 
 
@@ -26,7 +26,7 @@ package com.amazonaws.mws;
  */
 public class MarketplaceWebServiceConfig {
     public enum ProxyProtocol  { HTTP, HTTPS };
-    
+
     private int connectionTimeout = 50000;
     private int socketTimeout = 50000;
     private String serviceVersion = "2009-01-01";
@@ -41,8 +41,8 @@ public class MarketplaceWebServiceConfig {
     private int maxErrorRetry = 3;
     private int maxAsyncThreads = 30;
     private int maxAsyncQueueSize = maxAsyncThreads * 10;
-    
-  
+
+
     /**
      * Gets Version of the API
      *
@@ -177,17 +177,19 @@ public class MarketplaceWebServiceConfig {
     public String getUserAgent() {
         return userAgent;
     }
-    
+
     /**
      * Sets UserAgent property
      *
-     * @param userAgent User Agent String to use when sending request
-     *
+     * @param applicationName User Agent String to use when sending request
+     * @param additionalNameValuePairs additionalNameValuePairs
+     * @param applicationVersion applicationVersion
+     * @param programmingLanguage programmingLanguage
      */
     public void setUserAgent(
-    		String applicationName, 
-    		String applicationVersion, 
-    		String programmingLanguage, 
+    		String applicationName,
+    		String applicationVersion,
+    		String programmingLanguage,
     		String... additionalNameValuePairs) {
     	if(applicationName==null) throw new IllegalArgumentException(
     			"applicationName cannot be NULL");
@@ -216,27 +218,30 @@ public class MarketplaceWebServiceConfig {
     	b.append(")");
         this.userAgent = b.toString();
     }
-    
+
     /**
      * Sets UserAgent property and returns current MarketplaceWebServiceConfig
      *
-     * @param userAgent User Agent String to use when sending request
+     * @param applicationName User Agent String to use when sending request
+     * @param programmingLanguage programmingLanguage
+     * @param applicationVersion applicationVersion
+     * @param additionalNameValuePairs additionalNameValuePairs
      *
      * @return MarketplaceWebServiceConfig
      */
     public MarketplaceWebServiceConfig withUserAgent(
-            String applicationName, 
-            String applicationVersion, 
-            String programmingLanguage, 
+            String applicationName,
+            String applicationVersion,
+            String programmingLanguage,
             String... additionalNameValuePairs) {
         setUserAgent(
-                applicationName, 
-                applicationVersion, 
-                programmingLanguage, 
+                applicationName,
+                applicationVersion,
+                programmingLanguage,
                 additionalNameValuePairs);
         return this;
     }
-    
+
     /**
      * Checks if UserAgent property is set
      *
@@ -245,7 +250,7 @@ public class MarketplaceWebServiceConfig {
     public boolean isSetUserAgent() {
         return this.userAgent != null;
     }
-    
+
     /**
      * Gets ServiceURL property
      *
@@ -254,7 +259,7 @@ public class MarketplaceWebServiceConfig {
     public String getServiceURL() {
         return serviceURL;
     }
-    
+
     /**
      * Sets ServiceURL property
      *
@@ -264,7 +269,7 @@ public class MarketplaceWebServiceConfig {
     public void setServiceURL(String serviceURL) {
         this.serviceURL = serviceURL;
     }
-    
+
     /**
      * Sets ServiceURL property and returns current MarketplaceWebServiceConfig
      *
@@ -276,7 +281,7 @@ public class MarketplaceWebServiceConfig {
         setServiceURL(serviceURL);
         return this;
     }
-    
+
     /**
      * Checks if ServiceURL property is set
      *
@@ -285,7 +290,7 @@ public class MarketplaceWebServiceConfig {
     public boolean isSetServiceURL() {
         return this.serviceURL != null;
     }
-    
+
     /**
      * Gets ProxyHost property
      *
@@ -294,7 +299,7 @@ public class MarketplaceWebServiceConfig {
     public String getProxyHost() {
         return proxyHost;
     }
-    
+
     /**
      * Sets ProxyHost property
      *
@@ -304,7 +309,7 @@ public class MarketplaceWebServiceConfig {
     public void setProxyHost(String proxyHost) {
         this.proxyHost = proxyHost;
     }
-    
+
     /**
      * Sets ProxyHost property and returns current MarketplaceWebServiceConfig
      *
@@ -316,7 +321,7 @@ public class MarketplaceWebServiceConfig {
         setProxyHost(proxyHost);
         return this;
     }
-    
+
     /**
      * Checks if ProxyHost property is set
      *
@@ -325,7 +330,7 @@ public class MarketplaceWebServiceConfig {
     public boolean isSetProxyHost() {
         return this.proxyHost != null;
     }
-    
+
     /**
      * Gets ProxyProtocol property
      *
@@ -334,7 +339,7 @@ public class MarketplaceWebServiceConfig {
     public ProxyProtocol getProxyProtocol() {
         return proxyProtocol;
     }
-    
+
     /**
      * Sets ProxyProtocol property
      *
@@ -344,7 +349,7 @@ public class MarketplaceWebServiceConfig {
     public void setProxyProtocol(ProxyProtocol proxyProtocol) {
         this.proxyProtocol = proxyProtocol;
     }
-    
+
     /**
      * Sets ProxyProtocol property and returns current MarketplaceWebServiceConfig
      *
@@ -356,7 +361,7 @@ public class MarketplaceWebServiceConfig {
         setProxyProtocol(proxyProtocol);
         return this;
     }
-    
+
     /**
      * Checks if ProxyProtocol property is set
      *
@@ -365,7 +370,7 @@ public class MarketplaceWebServiceConfig {
     public boolean isSetProxyProtocol() {
         return this.proxyProtocol != null;
     }
-    
+
     /**
      * Gets ProxyPort property
      *
@@ -374,7 +379,7 @@ public class MarketplaceWebServiceConfig {
     public int getProxyPort() {
         return proxyPort;
     }
-    
+
     /**
      * Sets ProxyPort property
      *
@@ -384,7 +389,7 @@ public class MarketplaceWebServiceConfig {
     public void setProxyPort(int proxyPort) {
         this.proxyPort = proxyPort;
     }
-    
+
     /**
      * Sets ProxyPort property and returns current MarketplaceWebServiceConfig
      *
@@ -396,7 +401,7 @@ public class MarketplaceWebServiceConfig {
         setProxyPort(proxyPort);
         return this;
     }
-    
+
     /**
      * Checks if ProxyPort property is set
      *

@@ -91,7 +91,7 @@ public class ASINInboundGuidanceList extends AbstractMwsObject {
     /**
      * Add values for ASINInboundGuidance, return this.
      *
-     * @param asinInboundGuidance
+     * @param values
      *             New values to add.
      *
      * @return This instance.

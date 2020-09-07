@@ -91,7 +91,7 @@ public class PrepDetailsList extends AbstractMwsObject {
     /**
      * Add values for PrepDetails, return this.
      *
-     * @param prepDetails
+     * @param values
      *             New values to add.
      *
      * @return This instance.

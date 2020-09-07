@@ -392,7 +392,7 @@ public class CreateShipmentRequest extends AbstractMwsObject {
     /**
      * Add values for ShipmentLevelSellerInputsList, return this.
      *
-     * @param shipmentLevelSellerInputsList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

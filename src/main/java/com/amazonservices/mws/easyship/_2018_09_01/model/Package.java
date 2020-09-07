@@ -228,7 +228,7 @@ public class Package extends AbstractMwsObject {
     /**
      * Add values for PackageItemList, return this.
      *
-     * @param packageItemList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

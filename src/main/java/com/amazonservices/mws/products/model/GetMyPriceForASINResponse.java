@@ -99,7 +99,7 @@ public class GetMyPriceForASINResponse extends AbstractMwsObject implements MWSR
     /**
      * Add values for GetMyPriceForASINResult, return this.
      *
-     * @param getMyPriceForASINResult
+     * @param values
      *             New values to add.
      *
      * @return This instance.

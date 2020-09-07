@@ -91,7 +91,7 @@ public class OffersList extends AbstractMwsObject {
     /**
      * Add values for Offer, return this.
      *
-     * @param offer
+     * @param values
      *             New values to add.
      *
      * @return This instance.

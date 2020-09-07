@@ -91,7 +91,7 @@ public class AmazonPrepFeesDetailsList extends AbstractMwsObject {
     /**
      * Add values for AmazonPrepFeesDetails, return this.
      *
-     * @param amazonPrepFeesDetails
+     * @param values
      *             New values to add.
      *
      * @return This instance.

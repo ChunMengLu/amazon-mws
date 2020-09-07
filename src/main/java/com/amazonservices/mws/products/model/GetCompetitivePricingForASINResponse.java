@@ -99,7 +99,7 @@ public class GetCompetitivePricingForASINResponse extends AbstractMwsObject impl
     /**
      * Add values for GetCompetitivePricingForASINResult, return this.
      *
-     * @param getCompetitivePricingForASINResult
+     * @param values
      *             New values to add.
      *
      * @return This instance.

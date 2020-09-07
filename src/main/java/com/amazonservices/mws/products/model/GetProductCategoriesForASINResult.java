@@ -91,7 +91,7 @@ public class GetProductCategoriesForASINResult extends AbstractMwsObject {
     /**
      * Add values for Self, return this.
      *
-     * @param self
+     * @param values
      *             New values to add.
      *
      * @return This instance.

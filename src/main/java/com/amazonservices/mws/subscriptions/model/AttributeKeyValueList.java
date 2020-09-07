@@ -84,7 +84,7 @@ public class AttributeKeyValueList extends AbstractMwsObject {
     /**
      * Add values for member, return this.
      *
-     * @param member
+     * @param values
      *             New values to add.
      *
      * @return This instance.

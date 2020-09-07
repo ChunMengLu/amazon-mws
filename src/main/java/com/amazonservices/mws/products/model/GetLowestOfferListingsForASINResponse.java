@@ -99,7 +99,7 @@ public class GetLowestOfferListingsForASINResponse extends AbstractMwsObject imp
     /**
      * Add values for GetLowestOfferListingsForASINResult, return this.
      *
-     * @param getLowestOfferListingsForASINResult
+     * @param values
      *             New values to add.
      *
      * @return This instance.

@@ -91,7 +91,7 @@ public class InvalidASINList extends AbstractMwsObject {
     /**
      * Add values for InvalidASIN, return this.
      *
-     * @param invalidASIN
+     * @param values
      *             New values to add.
      *
      * @return This instance.

@@ -87,7 +87,7 @@ public class GetAdditionalSellerInputsResult extends AbstractMwsObject {
     /**
      * Add values for ShipmentLevelFields, return this.
      *
-     * @param shipmentLevelFields
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -141,7 +141,7 @@ public class GetAdditionalSellerInputsResult extends AbstractMwsObject {
     /**
      * Add values for ItemLevelFieldsList, return this.
      *
-     * @param itemLevelFieldsList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

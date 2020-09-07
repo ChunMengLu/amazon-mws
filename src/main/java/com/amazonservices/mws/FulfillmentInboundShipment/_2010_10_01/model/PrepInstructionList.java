@@ -91,7 +91,7 @@ public class PrepInstructionList extends AbstractMwsObject {
     /**
      * Add values for PrepInstruction, return this.
      *
-     * @param prepInstruction
+     * @param values
      *             New values to add.
      *
      * @return This instance.

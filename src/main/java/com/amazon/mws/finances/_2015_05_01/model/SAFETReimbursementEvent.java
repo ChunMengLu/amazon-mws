@@ -261,7 +261,7 @@ public class SAFETReimbursementEvent extends AbstractMwsObject {
     /**
      * Add values for SAFETReimbursementItemList, return this.
      *
-     * @param safetReimbursementItemList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

@@ -217,7 +217,7 @@ public class ListOrdersByNextTokenResult extends AbstractMwsObject {
     /**
      * Add values for Orders, return this.
      *
-     * @param orders
+     * @param values
      *             New values to add.
      *
      * @return This instance.

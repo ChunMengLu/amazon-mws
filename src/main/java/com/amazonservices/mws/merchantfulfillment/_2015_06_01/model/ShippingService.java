@@ -531,7 +531,7 @@ public class ShippingService extends AbstractMwsObject {
     /**
      * Add values for AvailableLabelFormats, return this.
      *
-     * @param availableLabelFormats
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -585,7 +585,7 @@ public class ShippingService extends AbstractMwsObject {
     /**
      * Add values for AvailableFormatOptionsForLabel, return this.
      *
-     * @param availableFormatOptionsForLabel
+     * @param values
      *             New values to add.
      *
      * @return This instance.

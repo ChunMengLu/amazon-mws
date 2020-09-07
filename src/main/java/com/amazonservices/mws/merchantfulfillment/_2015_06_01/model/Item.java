@@ -172,7 +172,7 @@ public class Item extends AbstractMwsObject {
     /**
      * Add values for transparencyCodeList, return this.
      *
-     * @param transparencyCodeList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -226,7 +226,7 @@ public class Item extends AbstractMwsObject {
     /**
      * Add values for ItemLevelSellerInputsList, return this.
      *
-     * @param itemLevelSellerInputsList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

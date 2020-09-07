@@ -128,7 +128,7 @@ public class CategoryQuery extends AbstractMwsObject {
     /**
      * Add values for FilterOptions, return this.
      *
-     * @param filterOptions
+     * @param values
      *             New values to add.
      *
      * @return This instance.

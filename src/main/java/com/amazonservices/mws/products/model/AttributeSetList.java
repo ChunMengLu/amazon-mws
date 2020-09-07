@@ -91,7 +91,7 @@ public class AttributeSetList extends AbstractMwsObject {
     /**
      * Add values for Any, return this.
      *
-     * @param any
+     * @param values
      *             New values to add.
      *
      * @return This instance.

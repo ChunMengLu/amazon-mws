@@ -91,7 +91,7 @@ public class SellerSKUList extends AbstractMwsObject {
     /**
      * Add values for Id, return this.
      *
-     * @param id
+     * @param values
      *             New values to add.
      *
      * @return This instance.

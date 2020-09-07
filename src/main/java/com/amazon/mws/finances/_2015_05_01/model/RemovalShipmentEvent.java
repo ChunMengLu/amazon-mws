@@ -217,7 +217,7 @@ public class RemovalShipmentEvent extends AbstractMwsObject {
     /**
      * Add values for RemovalShipmentItemList, return this.
      *
-     * @param removalShipmentItemList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

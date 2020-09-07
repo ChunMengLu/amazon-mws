@@ -172,7 +172,7 @@ public class PerformanceBondRefundEvent extends AbstractMwsObject {
     /**
      * Add values for ProductGroupList, return this.
      *
-     * @param productGroupList
+     * @param values
      *             New values to add.
      *
      * @return This instance.
@@ -189,7 +189,7 @@ public class PerformanceBondRefundEvent extends AbstractMwsObject {
      * Read members from a MwsReader.
      *
      * @param r
-     *      The reader to read from.
+     *      The reader to read from.RemovalShipmentEvent
      */
     @Override
     public void readFragmentFrom(MwsReader r) {

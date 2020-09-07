@@ -260,7 +260,7 @@ public class ListRecommendationsRequest extends AbstractMwsObject {
     /**
      * Add values for CategoryQueryList, return this.
      *
-     * @param categoryQueryList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

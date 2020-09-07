@@ -128,7 +128,7 @@ public class TaxWithheldComponent extends AbstractMwsObject {
     /**
      * Add values for TaxesWithheld, return this.
      *
-     * @param taxesWithheld
+     * @param values
      *             New values to add.
      *
      * @return This instance.

@@ -91,7 +91,7 @@ public class SKUInboundGuidanceList extends AbstractMwsObject {
     /**
      * Add values for SKUInboundGuidance, return this.
      *
-     * @param skuInboundGuidance
+     * @param values
      *             New values to add.
      *
      * @return This instance.

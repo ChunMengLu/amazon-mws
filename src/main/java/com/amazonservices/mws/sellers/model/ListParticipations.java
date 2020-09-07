@@ -91,7 +91,7 @@ public class ListParticipations extends AbstractMwsObject {
     /**
      * Add values for Participation, return this.
      *
-     * @param participation
+     * @param values
      *             New values to add.
      *
      * @return This instance.

@@ -99,7 +99,7 @@ public class GetMyPriceForSKUResponse extends AbstractMwsObject implements MWSRe
     /**
      * Add values for GetMyPriceForSKUResult, return this.
      *
-     * @param getMyPriceForSKUResult
+     * @param values
      *             New values to add.
      *
      * @return This instance.

@@ -90,7 +90,7 @@ public class SAFETReimbursementItem extends AbstractMwsObject {
     /**
      * Add values for itemChargeList, return this.
      *
-     * @param itemChargeList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

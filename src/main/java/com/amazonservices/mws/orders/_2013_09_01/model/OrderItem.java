@@ -915,7 +915,7 @@ public class OrderItem extends AbstractMwsObject {
     /**
      * Add values for PromotionIds, return this.
      *
-     * @param promotionIds
+     * @param values
      *             New values to add.
      *
      * @return This instance.

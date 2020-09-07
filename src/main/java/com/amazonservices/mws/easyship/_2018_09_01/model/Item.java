@@ -128,7 +128,7 @@ public class Item extends AbstractMwsObject {
     /**
      * Add values for OrderItemSerialNumberList, return this.
      *
-     * @param orderItemSerialNumberList
+     * @param values
      *             New values to add.
      *
      * @return This instance.

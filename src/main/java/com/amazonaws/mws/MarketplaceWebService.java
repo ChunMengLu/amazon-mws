@@ -1,18 +1,18 @@
-/******************************************************************************* 
+/*******************************************************************************
  *  Copyright 2009 Amazon Services.
- *  Licensed under the Apache License, Version 2.0 (the "License"); 
- *  
- *  You may not use this file except in compliance with the License. 
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *
+ *  You may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at: http://aws.amazon.com/apache2.0
- *  This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR 
- *  CONDITIONS OF ANY KIND, either express or implied. See the License for the 
+ *  This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ *  CONDITIONS OF ANY KIND, either express or implied. See the License for the
  *  specific language governing permissions and limitations under the License.
- * ***************************************************************************** 
+ * *****************************************************************************
  *
  *  Marketplace Web Service Java Library
  *  API Version: 2009-01-01
- *  Generated: Wed Feb 18 13:28:48 PST 2009 
- * 
+ *  Generated: Wed Feb 18 13:28:48 PST 2009
+ *
  */
 
 
@@ -27,20 +27,20 @@ import java.util.concurrent.Future;
 
 /**
  * The Amazon Marketplace Web Service contain APIs for inventory and order management.
- * 
- * 
+ *
+ *
  */
 public interface  MarketplaceWebService {
-    
 
-            
+
+
     /**
-     * Get Report 
+     * Get Report
      *
      * The GetReport operation returns the contents of a report. Reports can potentially be
-     * very large (>100MB) which is why we only return one report at a time, and in a
+     * very large (&gt;100MB) which is why we only return one report at a time, and in a
      * streaming fashion.
-     *   
+     *
      * @param request
      *          GetReport Action
      * @return
@@ -51,17 +51,17 @@ public interface  MarketplaceWebService {
     public GetReportResponse getReport(GetReportRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report 
+     * Non-blocking Get Report
      * <p/>
      * Returns <code>future</code> pointer to GetReportResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -94,17 +94,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportRequest request
      * @return Future&lt;GetReportResponse&gt; future pointer to GetReportResponse
-     * 
+     *
      */
     public Future<GetReportResponse> getReportAsync(GetReportRequest request);
 
 
-            
+
     /**
-     * Get Report Schedule Count 
+     * Get Report Schedule Count
      *
      * returns the number of report schedules
-     *   
+     *
      * @param request
      *          GetReportScheduleCount Action
      * @return
@@ -115,17 +115,17 @@ public interface  MarketplaceWebService {
     public GetReportScheduleCountResponse getReportScheduleCount(GetReportScheduleCountRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report Schedule Count 
+     * Non-blocking Get Report Schedule Count
      * <p/>
      * Returns <code>future</code> pointer to GetReportScheduleCountResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportScheduleCountResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportScheduleCountResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -158,17 +158,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportScheduleCountRequest request
      * @return Future&lt;GetReportScheduleCountResponse&gt; future pointer to GetReportScheduleCountResponse
-     * 
+     *
      */
     public Future<GetReportScheduleCountResponse> getReportScheduleCountAsync(GetReportScheduleCountRequest request);
 
 
-            
+
     /**
-     * Get Report Request List By Next Token 
+     * Get Report Request List By Next Token
      *
      * retrieve the next batch of list items and if there are more items to retrieve
-     *   
+     *
      * @param request
      *          GetReportRequestListByNextToken Action
      * @return
@@ -179,17 +179,17 @@ public interface  MarketplaceWebService {
     public GetReportRequestListByNextTokenResponse getReportRequestListByNextToken(GetReportRequestListByNextTokenRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report Request List By Next Token 
+     * Non-blocking Get Report Request List By Next Token
      * <p/>
      * Returns <code>future</code> pointer to GetReportRequestListByNextTokenResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportRequestListByNextTokenResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportRequestListByNextTokenResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -222,17 +222,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportRequestListByNextTokenRequest request
      * @return Future&lt;GetReportRequestListByNextTokenResponse&gt; future pointer to GetReportRequestListByNextTokenResponse
-     * 
+     *
      */
     public Future<GetReportRequestListByNextTokenResponse> getReportRequestListByNextTokenAsync(GetReportRequestListByNextTokenRequest request);
 
 
-            
+
     /**
-     * Update Report Acknowledgements 
+     * Update Report Acknowledgements
      *
      * The UpdateReportAcknowledgements operation updates the acknowledged status of one or more reports.
-     *   
+     *
      * @param request
      *          UpdateReportAcknowledgements Action
      * @return
@@ -243,17 +243,17 @@ public interface  MarketplaceWebService {
     public UpdateReportAcknowledgementsResponse updateReportAcknowledgements(UpdateReportAcknowledgementsRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Update Report Acknowledgements 
+     * Non-blocking Update Report Acknowledgements
      * <p/>
      * Returns <code>future</code> pointer to UpdateReportAcknowledgementsResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return UpdateReportAcknowledgementsResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return UpdateReportAcknowledgementsResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -286,21 +286,21 @@ public interface  MarketplaceWebService {
      * @param request
      *          UpdateReportAcknowledgementsRequest request
      * @return Future&lt;UpdateReportAcknowledgementsResponse&gt; future pointer to UpdateReportAcknowledgementsResponse
-     * 
+     *
      */
     public Future<UpdateReportAcknowledgementsResponse> updateReportAcknowledgementsAsync(UpdateReportAcknowledgementsRequest request);
 
 
-            
+
     /**
-     * Submit Feed 
+     * Submit Feed
      *
      * Uploads a file for processing together with the necessary
      * metadata to process the file, such as which type of feed it is.
      * PurgeAndReplace if true means that your existing e.g. inventory is
      * wiped out and replace with the contents of this feed - use with
      * caution (the default is false).
-     *   
+     *
      * @param request
      *          SubmitFeed Action
      * @return
@@ -311,17 +311,17 @@ public interface  MarketplaceWebService {
     public SubmitFeedResponse submitFeed(SubmitFeedRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Submit Feed 
+     * Non-blocking Submit Feed
      * <p/>
      * Returns <code>future</code> pointer to SubmitFeedResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return SubmitFeedResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return SubmitFeedResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -354,19 +354,19 @@ public interface  MarketplaceWebService {
      * @param request
      *          SubmitFeedRequest request
      * @return Future&lt;SubmitFeedResponse&gt; future pointer to SubmitFeedResponse
-     * 
+     *
      */
     public Future<SubmitFeedResponse> submitFeedAsync(SubmitFeedRequest request);
 
 
-            
+
     /**
-     * Get Report Count 
+     * Get Report Count
      *
      * returns a count of reports matching your criteria;
      * by default, the number of reports generated in the last 90 days,
      * regardless of acknowledgement status
-     *   
+     *
      * @param request
      *          GetReportCount Action
      * @return
@@ -377,17 +377,17 @@ public interface  MarketplaceWebService {
     public GetReportCountResponse getReportCount(GetReportCountRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report Count 
+     * Non-blocking Get Report Count
      * <p/>
      * Returns <code>future</code> pointer to GetReportCountResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportCountResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportCountResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -420,17 +420,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportCountRequest request
      * @return Future&lt;GetReportCountResponse&gt; future pointer to GetReportCountResponse
-     * 
+     *
      */
     public Future<GetReportCountResponse> getReportCountAsync(GetReportCountRequest request);
 
 
-            
+
     /**
-     * Get Feed Submission List By Next Token 
+     * Get Feed Submission List By Next Token
      *
      * retrieve the next batch of list items and if there are more items to retrieve
-     *   
+     *
      * @param request
      *          GetFeedSubmissionListByNextToken Action
      * @return
@@ -441,17 +441,17 @@ public interface  MarketplaceWebService {
     public GetFeedSubmissionListByNextTokenResponse getFeedSubmissionListByNextToken(GetFeedSubmissionListByNextTokenRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Feed Submission List By Next Token 
+     * Non-blocking Get Feed Submission List By Next Token
      * <p/>
      * Returns <code>future</code> pointer to GetFeedSubmissionListByNextTokenResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetFeedSubmissionListByNextTokenResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetFeedSubmissionListByNextTokenResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -484,18 +484,18 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetFeedSubmissionListByNextTokenRequest request
      * @return Future&lt;GetFeedSubmissionListByNextTokenResponse&gt; future pointer to GetFeedSubmissionListByNextTokenResponse
-     * 
+     *
      */
     public Future<GetFeedSubmissionListByNextTokenResponse> getFeedSubmissionListByNextTokenAsync(GetFeedSubmissionListByNextTokenRequest request);
 
 
-            
+
     /**
-     * Cancel Feed Submissions 
+     * Cancel Feed Submissions
      *
      * cancels feed submissions - by default all of the submissions of the
      * last 30 days that have not started processing
-     *   
+     *
      * @param request
      *          CancelFeedSubmissions Action
      * @return
@@ -506,17 +506,17 @@ public interface  MarketplaceWebService {
     public CancelFeedSubmissionsResponse cancelFeedSubmissions(CancelFeedSubmissionsRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Cancel Feed Submissions 
+     * Non-blocking Cancel Feed Submissions
      * <p/>
      * Returns <code>future</code> pointer to CancelFeedSubmissionsResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return CancelFeedSubmissionsResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return CancelFeedSubmissionsResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -549,17 +549,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          CancelFeedSubmissionsRequest request
      * @return Future&lt;CancelFeedSubmissionsResponse&gt; future pointer to CancelFeedSubmissionsResponse
-     * 
+     *
      */
     public Future<CancelFeedSubmissionsResponse> cancelFeedSubmissionsAsync(CancelFeedSubmissionsRequest request);
 
 
-            
+
     /**
-     * Request Report 
+     * Request Report
      *
      * requests the generation of a report
-     *   
+     *
      * @param request
      *          RequestReport Action
      * @return
@@ -570,17 +570,17 @@ public interface  MarketplaceWebService {
     public RequestReportResponse requestReport(RequestReportRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Request Report 
+     * Non-blocking Request Report
      * <p/>
      * Returns <code>future</code> pointer to RequestReportResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return RequestReportResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return RequestReportResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -613,17 +613,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          RequestReportRequest request
      * @return Future&lt;RequestReportResponse&gt; future pointer to RequestReportResponse
-     * 
+     *
      */
     public Future<RequestReportResponse> requestReportAsync(RequestReportRequest request);
 
 
-            
+
     /**
-     * Get Feed Submission Count 
+     * Get Feed Submission Count
      *
      * returns the number of feeds matching all of the specified criteria
-     *   
+     *
      * @param request
      *          GetFeedSubmissionCount Action
      * @return
@@ -634,17 +634,17 @@ public interface  MarketplaceWebService {
     public GetFeedSubmissionCountResponse getFeedSubmissionCount(GetFeedSubmissionCountRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Feed Submission Count 
+     * Non-blocking Get Feed Submission Count
      * <p/>
      * Returns <code>future</code> pointer to GetFeedSubmissionCountResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetFeedSubmissionCountResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetFeedSubmissionCountResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -677,18 +677,18 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetFeedSubmissionCountRequest request
      * @return Future&lt;GetFeedSubmissionCountResponse&gt; future pointer to GetFeedSubmissionCountResponse
-     * 
+     *
      */
     public Future<GetFeedSubmissionCountResponse> getFeedSubmissionCountAsync(GetFeedSubmissionCountRequest request);
 
 
-            
+
     /**
-     * Cancel Report Requests 
+     * Cancel Report Requests
      *
      * cancels report requests that have not yet started processing,
      * by default all those within the last 90 days
-     *   
+     *
      * @param request
      *          CancelReportRequests Action
      * @return
@@ -699,17 +699,17 @@ public interface  MarketplaceWebService {
     public CancelReportRequestsResponse cancelReportRequests(CancelReportRequestsRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Cancel Report Requests 
+     * Non-blocking Cancel Report Requests
      * <p/>
      * Returns <code>future</code> pointer to CancelReportRequestsResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return CancelReportRequestsResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return CancelReportRequestsResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -742,18 +742,18 @@ public interface  MarketplaceWebService {
      * @param request
      *          CancelReportRequestsRequest request
      * @return Future&lt;CancelReportRequestsResponse&gt; future pointer to CancelReportRequestsResponse
-     * 
+     *
      */
     public Future<CancelReportRequestsResponse> cancelReportRequestsAsync(CancelReportRequestsRequest request);
 
 
-            
+
     /**
-     * Get Report List 
+     * Get Report List
      *
      * returns a list of reports; by default the most recent ten reports,
      * regardless of their acknowledgement status
-     *   
+     *
      * @param request
      *          GetReportList Action
      * @return
@@ -764,17 +764,17 @@ public interface  MarketplaceWebService {
     public GetReportListResponse getReportList(GetReportListRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report List 
+     * Non-blocking Get Report List
      * <p/>
      * Returns <code>future</code> pointer to GetReportListResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportListResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportListResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -807,17 +807,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportListRequest request
      * @return Future&lt;GetReportListResponse&gt; future pointer to GetReportListResponse
-     * 
+     *
      */
     public Future<GetReportListResponse> getReportListAsync(GetReportListRequest request);
 
 
-            
+
     /**
-     * Get Feed Submission Result 
+     * Get Feed Submission Result
      *
      * retrieves the feed processing report
-     *   
+     *
      * @param request
      *          GetFeedSubmissionResult Action
      * @return
@@ -828,17 +828,17 @@ public interface  MarketplaceWebService {
     public GetFeedSubmissionResultResponse getFeedSubmissionResult(GetFeedSubmissionResultRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Feed Submission Result 
+     * Non-blocking Get Feed Submission Result
      * <p/>
      * Returns <code>future</code> pointer to GetFeedSubmissionResultResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetFeedSubmissionResultResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetFeedSubmissionResultResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -871,17 +871,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetFeedSubmissionResultRequest request
      * @return Future&lt;GetFeedSubmissionResultResponse&gt; future pointer to GetFeedSubmissionResultResponse
-     * 
+     *
      */
     public Future<GetFeedSubmissionResultResponse> getFeedSubmissionResultAsync(GetFeedSubmissionResultRequest request);
 
 
-            
+
     /**
-     * Get Feed Submission List 
+     * Get Feed Submission List
      *
      * returns a list of feed submission identifiers and their associated metadata
-     *   
+     *
      * @param request
      *          GetFeedSubmissionList Action
      * @return
@@ -892,17 +892,17 @@ public interface  MarketplaceWebService {
     public GetFeedSubmissionListResponse getFeedSubmissionList(GetFeedSubmissionListRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Feed Submission List 
+     * Non-blocking Get Feed Submission List
      * <p/>
      * Returns <code>future</code> pointer to GetFeedSubmissionListResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetFeedSubmissionListResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetFeedSubmissionListResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -935,17 +935,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetFeedSubmissionListRequest request
      * @return Future&lt;GetFeedSubmissionListResponse&gt; future pointer to GetFeedSubmissionListResponse
-     * 
+     *
      */
     public Future<GetFeedSubmissionListResponse> getFeedSubmissionListAsync(GetFeedSubmissionListRequest request);
 
 
-            
+
     /**
-     * Get Report Request List 
+     * Get Report Request List
      *
      * returns a list of report requests ids and their associated metadata
-     *   
+     *
      * @param request
      *          GetReportRequestList Action
      * @return
@@ -956,17 +956,17 @@ public interface  MarketplaceWebService {
     public GetReportRequestListResponse getReportRequestList(GetReportRequestListRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report Request List 
+     * Non-blocking Get Report Request List
      * <p/>
      * Returns <code>future</code> pointer to GetReportRequestListResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportRequestListResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportRequestListResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -999,17 +999,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportRequestListRequest request
      * @return Future&lt;GetReportRequestListResponse&gt; future pointer to GetReportRequestListResponse
-     * 
+     *
      */
     public Future<GetReportRequestListResponse> getReportRequestListAsync(GetReportRequestListRequest request);
 
 
-            
+
     /**
-     * Get Report Schedule List By Next Token 
+     * Get Report Schedule List By Next Token
      *
      * retrieve the next batch of list items and if there are more items to retrieve
-     *   
+     *
      * @param request
      *          GetReportScheduleListByNextToken Action
      * @return
@@ -1020,17 +1020,17 @@ public interface  MarketplaceWebService {
     public GetReportScheduleListByNextTokenResponse getReportScheduleListByNextToken(GetReportScheduleListByNextTokenRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report Schedule List By Next Token 
+     * Non-blocking Get Report Schedule List By Next Token
      * <p/>
      * Returns <code>future</code> pointer to GetReportScheduleListByNextTokenResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportScheduleListByNextTokenResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportScheduleListByNextTokenResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -1063,17 +1063,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportScheduleListByNextTokenRequest request
      * @return Future&lt;GetReportScheduleListByNextTokenResponse&gt; future pointer to GetReportScheduleListByNextTokenResponse
-     * 
+     *
      */
     public Future<GetReportScheduleListByNextTokenResponse> getReportScheduleListByNextTokenAsync(GetReportScheduleListByNextTokenRequest request);
 
 
-            
+
     /**
-     * Get Report List By Next Token 
+     * Get Report List By Next Token
      *
      * retrieve the next batch of list items and if there are more items to retrieve
-     *   
+     *
      * @param request
      *          GetReportListByNextToken Action
      * @return
@@ -1084,17 +1084,17 @@ public interface  MarketplaceWebService {
     public GetReportListByNextTokenResponse getReportListByNextToken(GetReportListByNextTokenRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report List By Next Token 
+     * Non-blocking Get Report List By Next Token
      * <p/>
      * Returns <code>future</code> pointer to GetReportListByNextTokenResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportListByNextTokenResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportListByNextTokenResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -1127,18 +1127,18 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportListByNextTokenRequest request
      * @return Future&lt;GetReportListByNextTokenResponse&gt; future pointer to GetReportListByNextTokenResponse
-     * 
+     *
      */
     public Future<GetReportListByNextTokenResponse> getReportListByNextTokenAsync(GetReportListByNextTokenRequest request);
 
 
-            
+
     /**
-     * Manage Report Schedule 
+     * Manage Report Schedule
      *
      * Creates, updates, or deletes a report schedule
      * for a given report type, such as order reports in particular.
-     *   
+     *
      * @param request
      *          ManageReportSchedule Action
      * @return
@@ -1149,17 +1149,17 @@ public interface  MarketplaceWebService {
     public ManageReportScheduleResponse manageReportSchedule(ManageReportScheduleRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Manage Report Schedule 
+     * Non-blocking Manage Report Schedule
      * <p/>
      * Returns <code>future</code> pointer to ManageReportScheduleResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return ManageReportScheduleResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return ManageReportScheduleResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -1192,18 +1192,18 @@ public interface  MarketplaceWebService {
      * @param request
      *          ManageReportScheduleRequest request
      * @return Future&lt;ManageReportScheduleResponse&gt; future pointer to ManageReportScheduleResponse
-     * 
+     *
      */
     public Future<ManageReportScheduleResponse> manageReportScheduleAsync(ManageReportScheduleRequest request);
 
 
-            
+
     /**
-     * Get Report Request Count 
+     * Get Report Request Count
      *
      * returns a count of report requests; by default all the report
      * requests in the last 90 days
-     *   
+     *
      * @param request
      *          GetReportRequestCount Action
      * @return
@@ -1214,17 +1214,17 @@ public interface  MarketplaceWebService {
     public GetReportRequestCountResponse getReportRequestCount(GetReportRequestCountRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report Request Count 
+     * Non-blocking Get Report Request Count
      * <p/>
      * Returns <code>future</code> pointer to GetReportRequestCountResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportRequestCountResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportRequestCountResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -1257,17 +1257,17 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportRequestCountRequest request
      * @return Future&lt;GetReportRequestCountResponse&gt; future pointer to GetReportRequestCountResponse
-     * 
+     *
      */
     public Future<GetReportRequestCountResponse> getReportRequestCountAsync(GetReportRequestCountRequest request);
 
 
-            
+
     /**
-     * Get Report Schedule List 
+     * Get Report Schedule List
      *
      * returns the list of report schedules
-     *   
+     *
      * @param request
      *          GetReportScheduleList Action
      * @return
@@ -1278,17 +1278,17 @@ public interface  MarketplaceWebService {
     public GetReportScheduleListResponse getReportScheduleList(GetReportScheduleListRequest request) throws MarketplaceWebServiceException;
 
     /**
-     * Non-blocking Get Report Schedule List 
+     * Non-blocking Get Report Schedule List
      * <p/>
      * Returns <code>future</code> pointer to GetReportScheduleListResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return GetReportScheduleListResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return GetReportScheduleListResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -1321,10 +1321,10 @@ public interface  MarketplaceWebService {
      * @param request
      *          GetReportScheduleListRequest request
      * @return Future&lt;GetReportScheduleListResponse&gt; future pointer to GetReportScheduleListResponse
-     * 
+     *
      */
     public Future<GetReportScheduleListResponse> getReportScheduleListAsync(GetReportScheduleListRequest request);
-    
+
     /**
      * Submit Feed From File
      *
@@ -1333,12 +1333,12 @@ public interface  MarketplaceWebService {
      * PurgeAndReplace if true means that your existing e.g. inventory is
      * wiped out and replace with the contents of this feed - use with
      * caution (the default is false).
-     * 
+     *
      * This function assumes the Content MD5 value is unset in the request, and will
      * set it before making the Submit Feed request. The Feed Content must be stored
      * on disk, as the assumption is that the content is accessed through
      * a FileInputStream.
-     * 
+     *
      * @param request
      *          SubmitFeedRequest request without the contentMd5 field set.
      * @return
@@ -1348,19 +1348,19 @@ public interface  MarketplaceWebService {
      */
     public SubmitFeedResponse submitFeedFromFile( SubmitFeedRequest request )
       throws MarketplaceWebServiceException;
-    
+
     /**
-     * Non-blocking Submit Feed From File 
+     * Non-blocking Submit Feed From File
      * <p/>
      * Returns <code>future</code> pointer to SubmitFeedResponse
      * <p/>
-     * If response is ready, call to <code>future.get()</code> 
-     * will return SubmitFeedResponse. 
+     * If response is ready, call to <code>future.get()</code>
+     * will return SubmitFeedResponse.
      * <p/>
-     * If response is not ready, call to <code>future.get()</code> will block the 
-     * calling thread until response is returned. 
+     * If response is not ready, call to <code>future.get()</code> will block the
+     * calling thread until response is returned.
      * <p/>
-     * Note, <code>future.get()</code> will throw wrapped runtime exception. 
+     * Note, <code>future.get()</code> will throw wrapped runtime exception.
      * <p/>
      * If service error has occured, MarketplaceWebServiceException can be extracted with
      * <code>exception.getCause()</code>
@@ -1393,7 +1393,7 @@ public interface  MarketplaceWebService {
      * @param request
      *          SubmitFeedRequest request
      * @return Future&lt;SubmitFeedResponse&gt; future pointer to SubmitFeedResponse
-     * 
+     *
      */
     public Future<SubmitFeedResponse> submitFeedFromFileAsync(final SubmitFeedRequest request);
 

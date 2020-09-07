@@ -99,7 +99,7 @@ public class GetMatchingProductForIdResponse extends AbstractMwsObject implement
     /**
      * Add values for GetMatchingProductForIdResult, return this.
      *
-     * @param getMatchingProductForIdResult
+     * @param values
      *             New values to add.
      *
      * @return This instance.
