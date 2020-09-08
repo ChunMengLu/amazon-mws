@@ -7,6 +7,7 @@
 
     <name>amazon-mws</name>
     <description>Amazon mws sdk.</description>
+    <url>http://www.dreamlu.net</url>
 
     <properties>
         <!-- use UTF-8 for everything -->
