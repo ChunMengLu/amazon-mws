@@ -17,6 +17,26 @@
         <httpclient.version>4.2.6</httpclient.version>
     </properties>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>ChunmengLu</name>
+            <email>qq596392912@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com/ChunMengLu/amazon-mws</connection>
+        <developerConnection>scm:git:git@github.com/ChunMengLu/amazon-mws.git</developerConnection>
+        <url>git@github.com/ChunMengLu/amazon-mws.git</url>
+    </scm>
+
     <dependencies>
         <!-- 必须的依赖 -->
         <dependency>
